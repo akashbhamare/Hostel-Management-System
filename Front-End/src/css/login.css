@@ -1,0 +1,14 @@
+
+body {
+    /* background-image: url("../../public/background-img.jpg"); */
+    background-color: aqua;
+  }
+
+   .login{
+    border: 2px solid red;
+    background-color: azure;
+    padding: 5px;
+   }
+
+
+  

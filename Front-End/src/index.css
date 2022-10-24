@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: coral;
+    /* background-image: url("../../public/background-img.jpg"); */
+    /* background-color: rgb(127, 127, 255); */
+  }

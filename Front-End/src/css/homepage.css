@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../../public/1567833.jpg");
+}
+
+.home-navbar {
+  margin: 0;
+  /* background-color: black; */
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+}
+
+.home-navbar-links{
+  cursor: pointer;
+  color: white;
+  padding-right: 20px;  
+  border: none;
+  text-decoration: none;
+}
+
+.active{
+  color: aqua;
+  text-decoration: underline;
+}
+
+.link{
+  color: red;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
